@@ -334,9 +334,9 @@
   <!-- Top Navigation Bar -->
   <nav>
     <div class="content-wrapper nav-inner">
-      <button class="tab-btn active" onclick="switchTab(event, 'about')">About</button>
+      <button class="tab-btn" onclick="switchTab(event, 'about')">About</button>
       <button class="tab-btn" onclick="switchTab(event, 'research')">Research</button>
-      <button class="tab-btn" onclick="switchTab(event, 'music')">Music</button>
+      <button class="tab-btn active" onclick="switchTab(event, 'music')">Music</button>
       <button class="tab-btn" onclick="switchTab(event, 'cv')">CV</button>
       <button class="tab-btn" onclick="switchTab(event, 'other')">Other</button>
     </div>
@@ -345,7 +345,7 @@
   <!-- Main Content Tabs -->
   <main>
     <div class="content-wrapper">
-      <section id="about" class="tab-pane active">
+      <section id="about" class="tab-pane">
   <h2>About</h2>
 
   <!-- 1. 직함 및 연구 단계 -->
@@ -398,7 +398,7 @@
       </section>
 
       <!-- Music Tab -->
-      <section id="music" class="tab-pane">
+      <section id="music" class="tab-pane active">
         <h2>Music & Works</h2>
 
         <div class="music-grid">
